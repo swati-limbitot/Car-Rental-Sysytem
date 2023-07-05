@@ -9,6 +9,8 @@ import { HomeComponent } from './components/home/home.component';
 import { CarlistComponent } from './components/carlist/carlist.component';
 import { CarrentalComponent } from './components/carrental/carrental.component';
 import { LupdateComponent } from './components/lupdate/lupdate.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
 
 
 @NgModule({
@@ -23,7 +25,11 @@ import { LupdateComponent } from './components/lupdate/lupdate.component';
   ],
   imports: [
     CommonModule,
-    AdminRoutingModule
+    AdminRoutingModule,
+    FormsModule, 
+    ReactiveFormsModule,
+    HttpClientModule
+
   ]
 })
 export class AdminModule { }

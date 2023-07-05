@@ -4,6 +4,8 @@ import { AdminDashboardComponent } from './components/admin-dashboard/admin-dash
 import { HomeComponent } from './components/home/home.component';
 import { CarlistComponent } from './components/carlist/carlist.component';
 import { CarrentalComponent } from './components/carrental/carrental.component';
+import { LupdateComponent } from './components/lupdate/lupdate.component';
+
 
 const routes: Routes = [
   {path:'',component: AdminDashboardComponent , children:[
@@ -11,6 +13,7 @@ const routes: Routes = [
   {path:'carlist',component:CarlistComponent},
   {path:'carrental',component:CarrentalComponent},
   {path:'',redirectTo:'/admin/home',pathMatch:'full'},
+  {path:'lupdate/:id',component:LupdateComponent}
   ],},
 ];
 
