@@ -11,6 +11,8 @@ import { CarrentalComponent } from './components/carrental/carrental.component';
 import { LupdateComponent } from './components/lupdate/lupdate.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
+import { ReviewComponent } from './components/review/review.component';
+import { CustomerCareComponent } from './components/customer-care/customer-care.component';
 
 
 @NgModule({
@@ -21,7 +23,9 @@ import { HttpClientModule } from '@angular/common/http';
     HomeComponent,
     CarlistComponent,
     CarrentalComponent,
-    LupdateComponent
+    LupdateComponent,
+    ReviewComponent,
+    CustomerCareComponent
   ],
   imports: [
     CommonModule,

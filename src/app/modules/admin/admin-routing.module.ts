@@ -5,6 +5,10 @@ import { HomeComponent } from './components/home/home.component';
 import { CarlistComponent } from './components/carlist/carlist.component';
 import { CarrentalComponent } from './components/carrental/carrental.component';
 import { LupdateComponent } from './components/lupdate/lupdate.component';
+import { ReviewComponent } from './components/review/review.component';
+import { CustomerCareComponent } from './components/customer-care/customer-care.component';
+
+
 
 
 const routes: Routes = [
@@ -13,7 +17,10 @@ const routes: Routes = [
   {path:'carlist',component:CarlistComponent},
   {path:'carrental',component:CarrentalComponent},
   {path:'',redirectTo:'/admin/home',pathMatch:'full'},
-  {path:'lupdate/:id',component:LupdateComponent}
+  {path:'lupdate/:id',component:LupdateComponent},
+  { path: '', redirectTo: 'reviews', pathMatch: 'full' },
+  { path: 'reviews', component: ReviewComponent },
+  { path: 'customer-care', component: CustomerCareComponent }
   ],},
 ];
 
