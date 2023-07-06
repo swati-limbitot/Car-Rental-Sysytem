@@ -1,34 +1,16 @@
 {
-  "cars": [
+  "payment": [
     {
-      "id": 1,
-      "imgSrc": "../../assets/images/img1.jpg",
-      "name": "Mahindra Thar",
-      "price": "Rs 550 per day"
-    },
-    {
-      "id": 2,
-      "imgSrc": "../../assets/images/img2.jpg",
-      "name": "Maruti Jimny",
-      "price": "Rs 800 per day"
-    },
-    {
-      "id": 3,
-      "imgSrc": "../../assets/images/img3.jpg",
-      "name": "Kia Seltos",
-      "price": "Rs 900 per day"
-    },
-    {
-      "id": 4,
-      "imgSrc": "../../assets/images/img 31.jpg",
-      "name": "Toyoto Fortuner",
-      "price": "Rs 650 per day"
-    },
-    {
-      "id": 5,
-      "imgSrc": "../../assets/images/img5.jpg",
-      "name": "Tata Nexon",
-      "price": "Rs 700 per day"
+      "fname": "tata",
+      "lname": "pooja",
+      "startdate": "2023-07-05",
+      "enddate": "2023-07-11",
+      "mom": "2000",
+      "dad": "offiline",
+      "contact": "1234567897",
+      "address": "bijapur",
+      "gender": "Female",
+      "id": 3
     }
   ],
   "comments": [
@@ -38,42 +20,7 @@
       "postId": 1
     }
   ],
-  "profile": [
-    {
-      "name": "typicode"
-    }
-  ],
-  "reviews": [
-    {
-      "title": "Ertiga-A nice car",
-      "description": "This car offers a pleasant driving experience at a reasonable price, although safety may be a concern. However, if you desire enhanced safety features, it comes at a higher cost. In general, this car is well-suited for a middle-class family. ",
-      "rating": "2",
-      "id": 1
-    },
-    {
-      "title": "Tata Nexon-Exterior is preety amazing",
-      "description": "I have to say that the Tata Nexon's exterior is pretty amazing. It is elegant and outstanding. My cousin just purchased one. The Nexon's sleek and modern appearance stands out on the road thanks to its sleek design and distinctive features. ",
-      "rating": "3",
-      "id": 2
-    },
-    {
-      "title": "Altroz-Fun to Drive",
-      "description": "n the CNG segment, this car is generally a good choice. However, one aspect of concern is the positioning of the two CNG tanks. If the car is hit from the rear by another vehicle, it may result in a more significant impact and potentially lead to dangerous consequences",
-      "rating": "5",
-      "id": 3
-    },
-    {
-      "title": "Baleno-Amazing Interior",
-      "description": "he quality of materials used is generally good, and the fit and finish are respectable for its segment. The Baleno offers comfortable seating for five occupants, with adequate headroom and legroom in both the front and rear seats",
-      "rating": "3",
-      "id": 4
-    },
-    {
-      "title": "Thar-Nice model",
-      "description": "New Mahindra Thar is a good car but not a family car yet if you plan for your first family car please consort with expert and test drive before book it. If you are a hard fan of Thar and you like adventure too and your financial conditions good then you go with new Mahindra Thar.",
-      "rating": "4",
-      "id": 5
-    }
-    
-  ]
+  "profile": {
+    "name": "typicode"
+  }
 }
