@@ -15,7 +15,7 @@ import { ReviewComponent } from './components/review/review.component';
 import { CustomerCareComponent } from './components/customer-care/customer-care.component'
 
 import { ReactiveFormsModule,FormsModule } from '@angular/forms';
-import { PaymentComponent } from './components/payment/payment.component';
+
 
  
 
@@ -31,7 +31,7 @@ import { PaymentComponent } from './components/payment/payment.component';
     LupdateComponent,
     ReviewComponent,
     CustomerCareComponent,
-    PaymentComponent,
+  
     
     
   ],

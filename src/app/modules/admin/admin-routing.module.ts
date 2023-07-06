@@ -7,7 +7,7 @@ import { CarrentalComponent } from './components/carrental/carrental.component';
 import { LupdateComponent } from './components/lupdate/lupdate.component';
 import { ReviewComponent } from './components/review/review.component';
 import { CustomerCareComponent } from './components/customer-care/customer-care.component';
-import { PaymentComponent } from './components/payment/payment.component';
+
 
 
 
@@ -17,7 +17,7 @@ const routes: Routes = [
   {path:'home',component:HomeComponent},
   {path:'carlist',component:CarlistComponent},
   {path:'carrental',component:CarrentalComponent},
-  {path:'payment',component:PaymentComponent},
+
   {path:'',redirectTo:'/admin/home',pathMatch:'full'},
   {path:'lupdate/:id',component:LupdateComponent},
   { path: '', redirectTo: 'reviews', pathMatch: 'full' },
