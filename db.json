@@ -1,7 +1,7 @@
 {
   "payment": [
     {
-      "fname": "tata",
+      "fname": "Mahidra Thar",
       "lname": "pooja",
       "startdate": "2023-07-05",
       "enddate": "2023-07-11",
@@ -13,11 +13,36 @@
       "id": 3
     }
   ],
- 
-  
-  "profile": [
+  "cars": [
     {
-      "name": "typicode"
+      "id": 1,
+      "imgSrc": "../assets/images/img1.jpg",
+      "name": "Mahindra Thar",
+      "price": "Rs 550 per day"
+    },
+    {
+      "id": 2,
+      "imgSrc": "../assets/images/img2.jpg",
+      "name": "Maruti Jimny",
+      "price": "Rs 800 per day"
+    },
+    {
+      "id": 3,
+      "imgSrc": "../assets/images/img3.jpg",
+      "name": "Kia Seltos",
+      "price": "Rs 900 per day"
+    },
+    {
+      "id": 4,
+      "imgSrc": "../assets/images/img 31.jpg",
+      "name": "Toyota Fortuner",
+      "price": "Rs 600 per day"
+    },
+    {
+      "id": 5,
+      "imgSrc": "../assets/images/img5.jpg",
+      "name": "Tata Nexon",
+      "price": "Rs 700 per day"
     }
   ],
   "reviews": [
