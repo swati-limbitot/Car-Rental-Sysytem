@@ -1,12 +1,9 @@
 import { Component } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
-<<<<<<< HEAD
-
-=======
->>>>>>> c5c87f65b82cf73f69e6d662b4dcae9038809cfb
 
 
-import { bmodel } from './paymet';
+
+import { bmodel } from './paymet'; 
 import { PaymentserviceService } from 'src/app/paymentservice.service';
 @Component({
   selector: 'app-payment',
