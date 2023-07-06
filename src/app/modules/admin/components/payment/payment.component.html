@@ -18,7 +18,7 @@
             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
           <div class="modal-body">
-            <form [formGroup]=" bform">
+            <form>
               <div class="from-group mb-2" style="background-color: rgb(236, 171, 182,0);">
   
                 <div style="display: flex;">
@@ -102,7 +102,7 @@
                   <span style="color: red;" *ngIf="address && address.invalid && address.touched">This field is not
                     valid</span> <br>
                 </div>
-                <button (click)="addBaby(this.bform.value)" type="button" type="button" class="btn btn-dark">Add</button>
+                <button (click)="addpay(this.pform.value)" type="button" type="button" class="btn btn-dark">Add</button>
               </div>
             </form>
           </div>
@@ -110,7 +110,8 @@
       </div>
     </div>
   
-    <table class="table">
+  <div class="container-fluid" mt-3>
+    <table class="table table-border">
       <thead>
         <tr>
           <th scope="col">ID</th>
@@ -127,7 +128,7 @@
         </tr>
       </thead>
       <tbody>
-        <tr *ngFor="let item of bdata; let i=index">
+        <tr *ngFor="let item of pdata; let i=index">
           <td>{{i}}</td>
           <td>{{item.fname}}</td>
           <td>{{item.lname}}</td>
@@ -140,7 +141,7 @@
           <td>{{item.address}}</td>
           <!-- <td><button routerLink="/bupdate/{{item.id}}" type="button"
               class="btn btn-outline-dark btn-small">Update</button></td> -->
-          <td><button (click)="deleteBaby(item)" type="button" class="btn btn-dark btn-small ms-3"><i
+          <td><button (click)="deletepay(item)" type="button" class="btn btn-dark btn-small ms-3"><i
                 class="bi bi-trash"></i></button></td>
         </tr>
       </tbody>

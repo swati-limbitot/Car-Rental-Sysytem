@@ -2,7 +2,8 @@ import { Component } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 
 
-import { bmodel } from './paymet';
+
+import { bmodel } from './paymet'; 
 import { PaymentserviceService } from 'src/app/paymentservice.service';
 @Component({
   selector: 'app-payment',
@@ -12,13 +13,13 @@ import { PaymentserviceService } from 'src/app/paymentservice.service';
 
 export class PaymentComponent {
 
-  bform!: FormGroup;
-  bdata: undefined | bmodel[];
+  pform!: FormGroup;
+  pdata: undefined | bmodel[];
 
   constructor(private formbuilder: FormBuilder, private bapi: PaymentserviceService) { }
 
   ngOnInit(): void {
-    this.bform = this.formbuilder.group({
+    this.pform = this.formbuilder.group({
       fname: ['', Validators.required],
       lname: ['', Validators.required],
       startdate: ['', Validators.required],
@@ -29,73 +30,73 @@ export class PaymentComponent {
       address: ['', Validators.required],
       gender: ['', Validators.required]
     })
-    this.getBaby();
+    this.getpay();
   }
 
   get date() {
-    return this.bform.get('date');
+    return this.pform.get('date');
   }
 
   get fname() {
-    return this.bform.get('name');
+    return this.pform.get('name');
   }
 
   get lname() {
-    return this.bform.get('name');
+    return this.pform.get('name');
   }
 
   get time() {
-    return this.bform.get('time');
+    return this.pform.get('time');
   }
 
   get mom() {
-    return this.bform.get('mom');
+    return this.pform.get('mom');
   }
 
   get dad() {
-    return this.bform.get('dad');
+    return this.pform.get('dad');
   }
 
   get contact() {
-    return this.bform.get('contact');
+    return this.pform.get('contact');
   }
 
   get address() {
-    return this.bform.get('address');
+    return this.pform.get('address');
   }
 
   get gender() {
-    return this.bform.get('name');
+    return this.pform.get('name');
   }
 
-  addBaby(bdata: bmodel) {
-    this.bapi.addBaby(bdata).subscribe((res => {
-      this.bform.reset();
+  addpay(bdata: bmodel) {
+    this.bapi.addpay(bdata).subscribe((res => {
+      this.pform.reset();
     }))
-    this.getBaby();
+    this.getpay();
     alert("Book Car");
   }
 
-  getBaby() {
-    this.bapi.getBaby().subscribe(res => {
-      this.bdata = res;
+  getpay() {
+    this.bapi.getpay().subscribe(res => {
+      this.pdata = res;
     })
   }
 
-  deleteBaby(bdata: any) {
-    this.bapi.deleteBaby(bdata.id).subscribe(res => {
-      this.getBaby();
+  deletepay(bdata: any) {
+    this.bapi.deletepay(bdata.id).subscribe(res => {
+      this.getpay();
     })
     alert("Delete Data");
   }
 
-  searchBaby(event: any) {
+  searchpay(event: any) {
     if (event.target.value) {
-      this.bapi.searchBaby(event.target.value).subscribe(res => {
-        this.bdata = res;
+      this.bapi.searchpay(event.target.value).subscribe(res => {
+        this.pdata = res;
       })
     } else {
-      this.getBaby();
+      this.getpay();
     }
   }
 }

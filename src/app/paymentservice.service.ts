@@ -12,19 +12,19 @@ export class PaymentserviceService {
 
   constructor(private http: HttpClient) { }
 
-  addBaby(bdata: bmodel) {
+  addpay(bdata: bmodel) {
     return this.http.post<bmodel>(this.baseurl, bdata)
   }
 
-  getBaby() {
+  getpay() {
     return this.http.get<bmodel[]>(this.baseurl);
   }
 
-  deleteBaby(id: number) {
+  deletepay(id: number) {
     return this.http.delete<bmodel>(this.baseurl + id);
   }
 
-  updateBaby(bdata: bmodel, id: number) {
+  updatepay(bdata: bmodel, id: number) {
     return this.http.put<bmodel>(this.baseurl + id, bdata);
   }
 
@@ -32,7 +32,7 @@ export class PaymentserviceService {
     return this.http.get<bmodel>(this.baseurl + id);
   }
 
-  searchBaby(fname: string) {
+  searchpay(fname: string) {
     return this.http.get<any>(`${this.baseurl}?fname=${fname}`);
   }
 }
