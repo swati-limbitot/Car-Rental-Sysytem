@@ -2,7 +2,7 @@
     <nav>
       <div class="container">
         <div class="d-flex">
-          <!-- <h2> <i class="bi bi-arrow-left-circle-fill" routerLink="/"></i></h2> -->
+          <h2> <i class="bi bi-arrow-left-circle-fill" routerLink="/"></i></h2>
           <button data-bs-toggle="modal" data-bs-target="#exampleModal" type="button"
             class="btn btn-outline-dark me-2 mb-2 btn-small ps-2 w-75 ms-3">Register Your Car</button>
           <!-- <input type="search" class="form-control me-2 mb-2" name="searchBaby" placeholder="Search Baby"
@@ -18,7 +18,7 @@
             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
           <div class="modal-body">
-            <form >
+            <form [formGroup]=" bform">
               <div class="from-group mb-2" style="background-color: rgb(236, 171, 182,0);">
   
                 <div style="display: flex;">

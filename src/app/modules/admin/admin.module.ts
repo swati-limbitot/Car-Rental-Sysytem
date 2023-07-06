@@ -9,10 +9,15 @@ import { HomeComponent } from './components/home/home.component';
 import { CarlistComponent } from './components/carlist/carlist.component';
 import { CarrentalComponent } from './components/carrental/carrental.component';
 import { LupdateComponent } from './components/lupdate/lupdate.component';
-import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+
 import { HttpClientModule } from '@angular/common/http';
 import { ReviewComponent } from './components/review/review.component';
-import { CustomerCareComponent } from './components/customer-care/customer-care.component';
+import { CustomerCareComponent } from './components/customer-care/customer-care.component'
+
+import { ReactiveFormsModule,FormsModule } from '@angular/forms';
+import { PaymentComponent } from './components/payment/payment.component';
+
+ 
 
 
 @NgModule({
@@ -25,14 +30,17 @@ import { CustomerCareComponent } from './components/customer-care/customer-care.
     CarrentalComponent,
     LupdateComponent,
     ReviewComponent,
-    CustomerCareComponent
+    CustomerCareComponent,
+    PaymentComponent,
+    
+    
   ],
   imports: [
     CommonModule,
     AdminRoutingModule,
-    FormsModule, 
+     HttpClientModule,
     ReactiveFormsModule,
-    HttpClientModule
+    FormsModule
 
   ]
 })
