@@ -31,11 +31,30 @@
       "price": "Rs 700 per day"
     }
   ],
-  "comments": [
+  "payment": [
     {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "fname": "",
+      "lname": "",
+      "startdate": "",
+      "enddate": "",
+      "mom": "",
+      "dad": "",
+      "contact": "",
+      "address": "",
+      "gender": "",
+      "id": 1
+    },
+    {
+      "fname": null,
+      "lname": null,
+      "startdate": null,
+      "enddate": null,
+      "mom": null,
+      "dad": null,
+      "contact": null,
+      "address": null,
+      "gender": null,
+      "id": 2
     }
   ],
   "profile": [
@@ -74,6 +93,5 @@
       "rating": "4",
       "id": 5
     }
-    
   ]
 }
