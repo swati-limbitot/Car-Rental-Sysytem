@@ -1,62 +1,20 @@
 {
-  "cars": [
-    {
-      "id": 1,
-      "imgSrc": "../../assets/images/img1.jpg",
-      "name": "Mahindra Thar",
-      "price": "Rs 550 per day"
-    },
-    {
-      "id": 2,
-      "imgSrc": "../../assets/images/img2.jpg",
-      "name": "Maruti Jimny",
-      "price": "Rs 800 per day"
-    },
-    {
-      "id": 3,
-      "imgSrc": "../../assets/images/img3.jpg",
-      "name": "Kia Seltos",
-      "price": "Rs 900 per day"
-    },
-    {
-      "id": 4,
-      "imgSrc": "../../assets/images/img 31.jpg",
-      "name": "Toyoto Fortuner",
-      "price": "Rs 650 per day"
-    },
-    {
-      "id": 5,
-      "imgSrc": "../../assets/images/img5.jpg",
-      "name": "Tata Nexon",
-      "price": "Rs 700 per day"
-    }
-  ],
   "payment": [
     {
-      "fname": "",
-      "lname": "",
-      "startdate": "",
-      "enddate": "",
-      "mom": "",
-      "dad": "",
-      "contact": "",
-      "address": "",
-      "gender": "",
-      "id": 1
-    },
-    {
-      "fname": null,
-      "lname": null,
-      "startdate": null,
-      "enddate": null,
-      "mom": null,
-      "dad": null,
-      "contact": null,
-      "address": null,
-      "gender": null,
-      "id": 2
+      "fname": "tata",
+      "lname": "pooja",
+      "startdate": "2023-07-05",
+      "enddate": "2023-07-11",
+      "mom": "2000",
+      "dad": "offiline",
+      "contact": "1234567897",
+      "address": "bijapur",
+      "gender": "Female",
+      "id": 3
     }
   ],
+ 
+  
   "profile": [
     {
       "name": "typicode"

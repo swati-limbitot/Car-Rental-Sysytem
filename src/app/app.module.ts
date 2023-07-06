@@ -8,8 +8,9 @@ import { ForgotPasswordComponent } from './components/forgot-password/forgot-pas
 
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
-import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+
 import { HttpClientModule } from '@angular/common/http';
+import { ReactiveFormsModule,FormsModule } from '@angular/forms';
 
 
 
@@ -25,9 +26,11 @@ import { HttpClientModule } from '@angular/common/http';
     AppRoutingModule,
     NgbModule,
     FontAwesomeModule,
-    ReactiveFormsModule,
+    
     HttpClientModule,
-    FormsModule 
+    ReactiveFormsModule,
+    FormsModule
+     
   ],
   providers: [],
   bootstrap: [AppComponent]

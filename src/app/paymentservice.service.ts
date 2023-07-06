@@ -1,7 +1,6 @@
 import { Injectable } from '@angular/core';
-import { bmodel } from './modules/admin/components/payment/payment';
+import { bmodel } from './modules/admin/components/payment/paymet';
 import { HttpClient } from '@angular/common/http';
-
 
 @Injectable({
   providedIn: 'root'
