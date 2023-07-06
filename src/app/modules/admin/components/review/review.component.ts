@@ -38,7 +38,7 @@ export class ReviewComponent implements OnInit {
       this.data = res;
     })
   }
- 
+  
 
 }
 

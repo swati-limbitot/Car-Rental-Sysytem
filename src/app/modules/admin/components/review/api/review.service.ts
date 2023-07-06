@@ -1,4 +1,4 @@
-import { HttpClient } from '@angular/common/http';
+import { HttpClient,HttpHeaders } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Reviewmodel } from '../review.model';
 
@@ -6,11 +6,14 @@ import { Reviewmodel } from '../review.model';
   providedIn: 'root'
 })
 export class ReviewService {
+  httpOptions = {
+    headers: new HttpHeaders({ 'Content-Type': 'application/json' })
+  };
 
   constructor(private http:HttpClient) { }
 
   addreview(data:Reviewmodel){
-    return this.http.post<Reviewmodel>("http://localhost:3000/reviews",data)
+    return this.http.post<Reviewmodel>("http://localhost:3000/reviews",data,this.httpOptions);
   }
 
   getreview(){
