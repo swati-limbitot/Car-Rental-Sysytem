@@ -4,7 +4,13 @@ import { AdminDashboardComponent } from './components/admin-dashboard/admin-dash
 import { HomeComponent } from './components/home/home.component';
 import { CarlistComponent } from './components/carlist/carlist.component';
 import { CarrentalComponent } from './components/carrental/carrental.component';
+import { LupdateComponent } from './components/lupdate/lupdate.component';
+import { ReviewComponent } from './components/review/review.component';
+import { CustomerCareComponent } from './components/customer-care/customer-care.component';
 import { PaymentComponent } from './components/payment/payment.component';
+
+
+
 
 const routes: Routes = [
   {path:'',component: AdminDashboardComponent , children:[
@@ -13,6 +19,10 @@ const routes: Routes = [
   {path:'carrental',component:CarrentalComponent},
   {path:'payment',component:PaymentComponent},
   {path:'',redirectTo:'/admin/home',pathMatch:'full'},
+  {path:'lupdate/:id',component:LupdateComponent},
+  { path: '', redirectTo: 'reviews', pathMatch: 'full' },
+  { path: 'reviews', component: ReviewComponent },
+  { path: 'customer-care', component: CustomerCareComponent }
   ],},
 ];
 

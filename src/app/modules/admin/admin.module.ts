@@ -9,9 +9,11 @@ import { HomeComponent } from './components/home/home.component';
 import { CarlistComponent } from './components/carlist/carlist.component';
 import { CarrentalComponent } from './components/carrental/carrental.component';
 import { LupdateComponent } from './components/lupdate/lupdate.component';
-import { PaymentComponent } from './components/payment/payment.component';
-import { ReactiveFormsModule,FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
+import { ReviewComponent } from './components/review/review.component';
+import { CustomerCareComponent } from './components/customer-care/customer-care.component';
+
 
 @NgModule({
   declarations: [
@@ -22,14 +24,16 @@ import { HttpClientModule } from '@angular/common/http';
     CarlistComponent,
     CarrentalComponent,
     LupdateComponent,
-    PaymentComponent
+    ReviewComponent,
+    CustomerCareComponent
   ],
   imports: [
     CommonModule,
     AdminRoutingModule,
+    FormsModule, 
     ReactiveFormsModule,
-    FormsModule,
     HttpClientModule
+
   ]
 })
 export class AdminModule { }
