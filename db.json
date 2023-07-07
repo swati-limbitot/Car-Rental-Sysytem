@@ -16,33 +16,38 @@
   "cars": [
     {
       "id": 1,
-      "imgSrc": "../assets/images/img1.jpg",
+      "imgSrc": null,
       "name": "Mahindra Thar",
-      "price": "Rs 550 per day"
+      "price": "Rs 550 per day",
+      "url": "https://stimg.cardekho.com/images/carexteriorimages/630x420/Mahindra/Thar/8076/1601635839903/front-left-side-47.jpg?tr=w-456"
     },
     {
       "id": 2,
-      "imgSrc": "../assets/images/img2.jpg",
+      "imgSrc": null,
       "name": "Maruti Jimny",
-      "price": "Rs 800 per day"
+      "price": "Rs 600 per day",
+      "url": "https://stimg.cardekho.com/images/carexteriorimages/630x420/Kia/Seltos/6226/1679395459776/front-left-side-47.jpg?imwidth=420&impolicy=resize"
     },
     {
       "id": 3,
-      "imgSrc": "../assets/images/img3.jpg",
+      "imgSrc": null,
       "name": "Kia Seltos",
-      "price": "Rs 900 per day"
+      "price": "Rs 700 per day",
+      "url": "https://stimg.cardekho.com/images/carexteriorimages/630x420/Kia/Seltos/6226/1679395459776/front-left-side-47.jpg?imwidth=420&impolicy=resize"
     },
     {
       "id": 4,
-      "imgSrc": "../assets/images/img 31.jpg",
+      "imgSrc": null,
       "name": "Toyota Fortuner",
-      "price": "Rs 600 per day"
+      "price": "Rs 800 per day",
+      "url": "https://stimg.cardekho.com/images/carexteriorimages/630x420/Toyota/Fortuner/8241/1609921660871/front-left-side-47.jpg?tr=w-456"
     },
     {
       "id": 5,
-      "imgSrc": "../assets/images/img5.jpg",
+      "imgSrc": null,
       "name": "Tata Nexon",
-      "price": "Rs 700 per day"
+      "price": "Rs 650 per day",
+      "url": "https://stimg.cardekho.com/images/carexteriorimages/630x420/Tata/Nexon/9977/1683047876204/front-left-side-47.jpg?tr=w-456"
     }
   ],
   "reviews": [

@@ -3,5 +3,6 @@ export interface listModel{
     name:string;
     price:string;
     imgSrc:string;
+    url:string;
     
 }

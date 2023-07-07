@@ -19,7 +19,9 @@ export class CarlistComponent implements OnInit {
       id: ['', Validators.required],
       imgSrc: ['', Validators.required],
       name: ['', Validators.required],
-      price: ['', Validators.required]
+      price: ['', Validators.required],
+      url: ['', Validators.required]
+      
 
     })
     this.getcars();
